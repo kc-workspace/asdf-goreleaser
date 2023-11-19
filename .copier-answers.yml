@@ -49,10 +49,10 @@ source_url: https://github.com/goreleaser/goreleaser.git
 sys_arch_enabled: true
 sys_arch_yaml:
     aarch64*: arm64
+    amd64: x86_64
     armv5*: armv7
     armv6*: armv7
     armv7*: armv7
-    x86_64: amd64
 sys_ext_enabled: false
 sys_os_enabled: true
 sys_os_yaml:

@@ -75,8 +75,8 @@ kc_asdf_get_arch() {
   armv7*)
     arch="armv7"
     ;;
-  x86_64)
-    arch="amd64"
+  amd64)
+    arch="x86_64"
     ;;
   esac
 
