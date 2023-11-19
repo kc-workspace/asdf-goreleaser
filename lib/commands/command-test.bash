@@ -2,4 +2,4 @@
 
 ## https://asdf-vm.com/plugins/create.html#extension-commands-for-asdf-cli
 
-goreleaser healthcheck
+goreleaser --version

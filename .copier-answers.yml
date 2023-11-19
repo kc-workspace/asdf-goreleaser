@@ -1,6 +1,6 @@
 ---
 ## Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v2.2.6
+_commit: v2.2.7
 _src_path: gh:kc-workspace/asdf-plugin-template.git
 addon_yaml:
     archive: true
@@ -58,6 +58,6 @@ sys_os_enabled: true
 sys_os_yaml:
     darwin: Darwin
     linux: Linux
-test_cmd_args: healthcheck
+test_cmd_args: --version
 version_file_enabled: false
 version_prefix: v
