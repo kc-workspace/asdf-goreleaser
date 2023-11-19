@@ -1,0 +1,63 @@
+---
+## Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v2.2.6
+_src_path: gh:kc-workspace/asdf-plugin-template.git
+addon_yaml:
+    archive: true
+    checksum: true
+    download: true
+    fetch: true
+    git: true
+    github: true
+    gpg: false
+    help: true
+    install: true
+    package: false
+    python: false
+    system: true
+    tags: true
+    version: false
+app_desc: Deliver Go binaries as fast and easily as possible
+app_name: goreleaser
+app_repo: https://github.com/goreleaser/goreleaser
+app_type: standalone
+app_website: https://goreleaser.com/
+archive_conf_path: ''
+archive_conf_strip: 0
+archive_enabled: true
+archive_regex: (\\.tar\\.gz|\\.tgz|\\.zip)$
+checksum_conf_algorithm: 256
+checksum_enabled: true
+checksum_url: https://github.com/goreleaser/goreleaser/releases/download/v{version}/checksums.txt
+custom_bin_paths: bin
+custom_non_stable_version: (-src|-dev|-latest|-stm|[-\.]rc|-alpha|-beta|[-\.]pre|-next|snapshot|master)
+custom_require_commands: go
+download_url: https://github.com/goreleaser/goreleaser/releases/download/v{version}/goreleaser_{os}_{arch}.tar.gz
+gpg_enabled: false
+install_map_enabled: true
+install_map_method: link
+install_map_yaml:
+    goreleaser: bin/goreleaser
+package_enabled: false
+plugin_author: Kamontat Chantrachirathumrong
+plugin_name: asdf-goreleaser
+plugin_org: kc-workspace
+plugin_repo: https://github.com/kc-workspace/asdf-goreleaser.git
+source_enabled: true
+source_type: git
+source_url: https://github.com/goreleaser/goreleaser.git
+sys_arch_enabled: true
+sys_arch_yaml:
+    aarch64*: arm64
+    armv5*: armv7
+    armv6*: armv7
+    armv7*: armv7
+    x86_64: amd64
+sys_ext_enabled: false
+sys_os_enabled: true
+sys_os_yaml:
+    darwin: Darwin
+    linux: Linux
+test_cmd_args: healthcheck
+version_file_enabled: false
+version_prefix: v
