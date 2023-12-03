@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/kc-workspace/asdf-goreleaser/compare/v1.0.0...v1.0.1) (2023-12-03)
+
+
+### Improvements
+
+* update plugin from template [autocommit] ([23606c3](https://github.com/kc-workspace/asdf-goreleaser/commit/23606c34ee4f822dacd907e11228cfd291112e5a))
+
 ## 1.0.0 (2023-11-19)
 
 
